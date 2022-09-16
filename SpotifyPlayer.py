@@ -3,8 +3,7 @@ from logging import debug
 from random import seed
 from random import randint
 
-
-class SpotifyPlayer():
+class SpotifyPlayer:
 
     def __init__(self,spotify):
         self.spotify = spotify
@@ -66,4 +65,5 @@ class SpotifyPlayer():
 
         if not device_is_active:
             print ("Spotify device not active")
+
         return device_is_active
